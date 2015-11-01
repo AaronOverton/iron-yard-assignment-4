@@ -1,0 +1,6 @@
+body { margin:0; padding:0; width:100%; position:relative; }
+
+ul.nav { list-style: none; margin:4px 8px; padding:0; }
+ul.nav li { display:inline-block; }
+ul.nav li a { text-decoration: none; color:#999999; font-size:12px; margin-right: 10px; font-weight:bold; }
+ul.nav li a.active { color:#333333; }
