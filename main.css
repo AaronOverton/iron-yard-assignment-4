@@ -14,7 +14,7 @@ body { margin:0 auto; padding:0; width:1024px; position:relative; background-col
 .hero .overlay p { text-align: center; color:white; font-size:1.8em; line-height:1.2em; margin:0; }
 
 /* Main copy */
-.copy { padding:20px 140px 10px; }
+.copy { padding:30px 180px 10px; }
 
 /* Pricing boxes */
 .pricing { 
@@ -25,8 +25,18 @@ body { margin:0 auto; padding:0; width:1024px; position:relative; background-col
     -moz-column-gap: 10px; /* Firefox */
     column-gap: 10px;
 }
-.price-box { list-style: none; margin:0; padding:0; text-align:center; }
+.price-box { list-style: none; margin:0; padding:0; text-align:center; border:1px solid #dddddd; }
 .price-box p { margin:0; }
+.pricing .header { background-color:black; color:white; padding:24px 0; text-transform:uppercase; }
+.pricing .header.personal { background-color:#519251; }
+.pricing .header.small { background-color:#2C4985; }
+.pricing .header .type { font-size:0.75em; font-weight:bold; }
+.pricing .header .price { font-size:3.5em; }
+.pricing .header .month { font-size:0.8em; }
+.price-box li { border-bottom: 1px solid #cccccc; background-color: #F7F7F7; font-size:0.75em; padding:8px 0; color:#555555; }
+.price-box li.button { border-bottom:none; background-color: transparent; padding:16px 0; }
+.price-box li.button a { text-decoration: none; background-color:#F7F7F7; border:1px solid #cccccc; color:#333333; padding:4px;
+	border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; font-weight: bold; }
 
 /* Feature boxes */
 .features { 
